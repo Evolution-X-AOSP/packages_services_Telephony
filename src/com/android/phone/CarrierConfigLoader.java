@@ -541,16 +541,16 @@ public class CarrierConfigLoader extends ICarrierConfigLoader.Stub {
                     SharedPreferences sharedPrefs =
                             PreferenceManager.getDefaultSharedPreferences(mContext);
                     final String lastFingerprint = sharedPrefs.getString(KEY_FINGERPRINT, null);
-                    if (!Build.VERSION.INCREMENTAL.equals(lastFingerprint)) {
+                    if (!String.valueOf(Build.TIME).equals(lastFingerprint)) {
                         logd(
-                                "Build incremental version changed. old: "
+                                "Build time changed. old: "
                                         + lastFingerprint
                                         + " new: "
-                                        + Build.VERSION.INCREMENTAL);
+                                        + Build.TIME);
                         clearCachedConfigForPackage(null);
                         sharedPrefs
                                 .edit()
-                                .putString(KEY_FINGERPRINT, Build.VERSION.INCREMENTAL)
+                                .putString(KEY_FINGERPRINT, String.valueOf(Build.TIME))
                                 .apply();
                     }
                     break;

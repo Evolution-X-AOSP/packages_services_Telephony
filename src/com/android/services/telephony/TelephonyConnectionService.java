@@ -780,7 +780,7 @@ public class TelephonyConnectionService extends ConnectionService {
             boolean noActiveSimCard = SubscriptionController.getInstance()
                     .getActiveSubInfoCount(phone.getContext().getOpPackageName()) == 0;
             // If there's no active sim card and the device is in emergency mode, use E account.
-            addExistingConnection(mPhoneUtilsProxy.makePstnPhoneAccountHandleWithPrefix(
+            addExistingConnection(PhoneUtils.makePstnPhoneAccountHandleWithPrefix(
                     phone, "", isEmergencyNumber && noActiveSimCard), repConnection);
             // Remove the old connection from Telecom after.
             connectionToEvaluate.setDisconnected(

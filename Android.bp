@@ -47,6 +47,8 @@ android_app {
         "service-entitlement"
     ],
 
+    defaults: ["SettingsLibDefaults"],
+
     srcs: [
         ":framework-telephony-common-shared-srcs",
         "src/**/*.java",

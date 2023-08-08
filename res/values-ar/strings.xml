@@ -566,7 +566,7 @@
     <string name="emergency_enable_radio_dialog_message" msgid="1695305158151408629">"جارٍ تفعيل اللاسلكي..."</string>
     <string name="emergency_enable_radio_dialog_retry" msgid="4329131876852608587">"لا تتوفر خدمة. جارٍ إعادة المحاولة…"</string>
     <string name="radio_off_during_emergency_call" msgid="8011154134040481609">"لا يمكن دخول وضع الطيران أثناء إجراء مكالمة طوارئ."</string>
-    <string name="dial_emergency_error" msgid="825822413209026039">"يتعذر الاتصال. لا يعد <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> رقم طوارئ."</string>
+    <string name="dial_emergency_error" msgid="825822413209026039">"يتعذر الاتصال. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> ليس رقم طوارئ."</string>
     <string name="dial_emergency_empty_error" msgid="2785803395047793634">"يتعذر الاتصال. يمكنك طلب رقم طوارئ."</string>
     <string name="dial_emergency_calling_not_available" msgid="6485846193794727823">"مكالمة الطوارئ غير متوفرة"</string>
     <string name="pin_puk_system_user_only" msgid="1045147220686867922">"‏يمكن لمالك الجهاز فقط إدخال رمزَي PIN/PUK."</string>
@@ -575,7 +575,7 @@
     <string name="fire_type_description" msgid="6565200468934914930">"حريق"</string>
     <string name="description_concat_format" msgid="2014471565101724088">"‏%1$s، ‏%2$s‏"</string>
     <string name="dialerKeyboardHintText" msgid="1115266533703764049">"استخدام لوحة المفاتيح للطلب"</string>
-    <string name="onscreenHoldText" msgid="4025348842151665191">"تعليق"</string>
+    <string name="onscreenHoldText" msgid="4025348842151665191">"انتظار"</string>
     <string name="onscreenEndCallText" msgid="6138725377654842757">"الانتهاء"</string>
     <string name="onscreenShowDialpadText" msgid="658465753816164079">"لوحة الاتصال"</string>
     <string name="onscreenMuteText" msgid="5470306116733843621">"كتم الصوت"</string>
